@@ -1,6 +1,2 @@
-The code is split over multiple projects and languages.
-
-C++ - The utilities to take the pdb files, calcukate the geometric measures and store them in files is all in C++.
-Database - The data is written into MySQL database tables using python and sql.
-Python - A website histed on the birkbeck servers allows the data to be explored, written in python and cgi scripts.
-R - some data anlaysis is done in R from copied down data, eg PCA analysis of proline.
+Data Files
+topallhgg5.3.pro - file with definitions of angles, lengths, dihedrals (used for NMR refinement).
