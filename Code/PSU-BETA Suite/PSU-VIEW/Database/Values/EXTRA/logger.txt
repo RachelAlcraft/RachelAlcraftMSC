@@ -1,0 +1,303 @@
+10:12:26(elap:133):	Starting Atoms Data report for 3VBB
+10:12:32(elap:139):	Starting Geometric Core Data report for 3VBB
+10:12:32(elap:139):	Starting Atoms Data report for 3VBB
+10:12:32(elap:139):	Starting Geometric Core Data report for 3VBB
+10:12:33(elap:140):	----- 0 / 1 ---- 11 / 14 --- 4AKG--------
+10:12:37(elap:144):	217	C=CB	LYS=44	Chain=A	(x,y,z)=(51.464,9.251,119.295)
+10:12:39(elap:146):	2217	N=N	ILE=1502	Chain=A	(x,y,z)=(46.05,-36.899,82.374)
+10:12:40(elap:147):	4217	N=N	SER=1746	Chain=A	(x,y,z)=(73.126,-73.876,25.889)
+10:12:43(elap:150):	6217	C=CG1	VAL=2001	Chain=A	(x,y,z)=(75.459,-29.445,6.943)
+10:12:46(elap:153):	8217	C=CA	ASP=2255	Chain=A	(x,y,z)=(66.03,14.835,-7.464)
+10:12:48(elap:155):	10217	C=CD	GLN=2508	Chain=A	(x,y,z)=(58.996,-8.639,22.996)
+10:12:50(elap:157):	12217	N=N	GLN=2751	Chain=A	(x,y,z)=(67.093,20.671,53.688)
+10:12:52(elap:159):	14217	N=NH2	ARG=3015	Chain=A	(x,y,z)=(93.456,1.395,106.352)
+10:12:52(elap:0):	********** Starting Geometry calculations for PSU-BETA **************
+10:12:52(elap:0):	----- 0 / 1 ---- 1 / 14 --- 2C4N--------
+10:12:53(elap:1):	NCS Model=TRUE
+10:12:53(elap:1):	1599	C=CB	ALA=209	Chain=A	(x,y,z)=(6.019,21.034,3.612)
+10:12:53(elap:1):	Starting Atoms Data report for 2C4N
+10:12:53(elap:1):	Starting Geometric Core Data report for 2C4N
+10:12:53(elap:1):	----- 0 / 1 ---- 2 / 14 --- 3O4P--------
+10:12:53(elap:1):	NCS Model=TRUE
+10:12:53(elap:1):	827	O=O	GLY=56	Chain=A	(x,y,z)=(9.688,-13.345,34.756)
+10:12:53(elap:1):	2107	C=C	ARG=146	Chain=A	(x,y,z)=(-1.625,5.818,12.932)
+10:12:53(elap:1):	Starting Atoms Data report for 3O4P
+10:12:54(elap:2):	Starting Geometric Core Data report for 3O4P
+10:12:54(elap:2):	Starting Atoms Data report for 3O4P
+10:12:54(elap:2):	Starting Geometric Core Data report for 3O4P
+10:12:54(elap:161):	16217	N=NH1	ARG=3528	Chain=A	(x,y,z)=(106.572,-25.944,72.859)
+10:12:54(elap:2):	Starting Atoms Data report for 3O4P
+10:12:55(elap:3):	Starting Geometric Core Data report for 3O4P
+10:12:55(elap:3):	Starting Atoms Data report for 3O4P
+10:12:55(elap:3):	Starting Geometric Core Data report for 3O4P
+10:12:55(elap:3):	----- 0 / 1 ---- 3 / 14 --- 1EJG--------
+10:12:55(elap:3):	NCS Model=TRUE
+10:12:55(elap:3):	Starting Atoms Data report for 1EJG
+10:12:55(elap:3):	Starting Geometric Core Data report for 1EJG
+10:12:55(elap:3):	Starting Atoms Data report for 1EJG
+10:12:56(elap:4):	Starting Geometric Core Data report for 1EJG
+10:12:56(elap:4):	Starting Atoms Data report for 1EJG
+10:12:56(elap:4):	Starting Geometric Core Data report for 1EJG
+10:12:56(elap:4):	----- 0 / 1 ---- 4 / 14 --- 1BVR--------
+10:12:56(elap:4):	1233	C=C	SER=166	Chain=A	(x,y,z)=(13.213,0.83,2.433)
+10:12:56(elap:4):	3233	C=CA	ALA=167	Chain=B	(x,y,z)=(15.316,0.277,-2.389)
+10:12:56(elap:4):	5233	C=CA	LEU=168	Chain=C	(x,y,z)=(40.116,10.415,52.526)
+10:12:56(elap:4):	7233	C=CD1	LEU=168	Chain=D	(x,y,z)=(32.511,17.251,64.39)
+10:12:56(elap:4):	9233	O=O	GLU=169	Chain=E	(x,y,z)=(24.628,-6.11,71.394)
+10:12:56(elap:4):	11233	O=OE2	GLU=169	Chain=F	(x,y,z)=(31.413,-9.339,61.2)
+10:12:56(elap:4):	Starting Atoms Data report for 1BVR
+10:12:56(elap:163):	18217	O=O	VAL=3777	Chain=A	(x,y,z)=(113.814,-43.754,63.128)
+10:12:56(elap:4):	Starting Geometric Core Data report for 1BVR
+10:12:56(elap:4):	----- 0 / 1 ---- 5 / 14 --- 6J4A--------
+10:12:57(elap:5):	1228	C=CG2	VAL=152	Chain=A	(x,y,z)=(230.07,184.946,158.696)
+10:12:57(elap:5):	3228	C=CA	ALA=52	Chain=C	(x,y,z)=(292.159,119.925,151.243)
+10:12:57(elap:5):	5228	C=CB	ASP=123	Chain=D	(x,y,z)=(279.935,105.33,178.755)
+10:12:57(elap:5):	7228	N=N	ILE=24	Chain=F	(x,y,z)=(258.018,198.324,111.982)
+10:12:57(elap:5):	9228	O=OD1	ASP=92	Chain=G	(x,y,z)=(256.904,148.659,202.149)
+10:12:57(elap:5):	11228	C=C	GLU=167	Chain=H	(x,y,z)=(243.389,127.344,158.741)
+10:12:57(elap:5):	13228	C=CG	ARG=63	Chain=J	(x,y,z)=(257.538,137.815,116.6)
+10:12:57(elap:5):	15228	C=CG2	THR=135	Chain=K	(x,y,z)=(311.571,158.421,121.001)
+10:12:57(elap:5):	Starting Atoms Data report for 6J4A
+10:12:57(elap:5):	Starting Geometric Core Data report for 6J4A
+10:12:57(elap:5):	----- 0 / 1 ---- 6 / 14 --- 1IX9--------
+10:12:57(elap:5):	732	C=CD	LYS=86	Chain=A	(x,y,z)=(-0.13,31.59,1.911)
+10:12:57(elap:5):	1732	O=O	LYS=205	Chain=A	(x,y,z)=(10.608,46.747,-3.554)
+10:12:58(elap:6):	Starting Atoms Data report for 1IX9
+10:12:58(elap:6):	Starting Geometric Core Data report for 1IX9
+10:12:58(elap:6):	Starting Atoms Data report for 1IX9
+10:12:58(elap:6):	Starting Geometric Core Data report for 1IX9
+10:12:58(elap:6):	Starting Atoms Data report for 1IX9
+10:12:58(elap:6):	Starting Geometric Core Data report for 1IX9
+10:12:58(elap:165):	20217	O=O	GLY=4026	Chain=A	(x,y,z)=(123.556,-59.58,25.522)
+10:12:58(elap:6):	----- 0 / 1 ---- 7 / 14 --- 5A9X--------
+10:12:58(elap:6):	1170	N=N	MET=183	Chain=A	(x,y,z)=(-0.434,-11.499,18.567)
+10:12:59(elap:7):	3170	N=NH1	ARG=452	Chain=A	(x,y,z)=(-10.907,-61.503,37.45)
+10:12:59(elap:7):	Starting Atoms Data report for 5A9X
+10:12:59(elap:7):	Starting Geometric Core Data report for 5A9X
+10:13:0(elap:8):	----- 0 / 1 ---- 8 / 14 --- 1RJE--------
+10:13:0(elap:8):	1362	O=O	ALA=172	Chain=A	(x,y,z)=(17.241,95.879,11.429)
+10:13:0(elap:8):	3362	C=CG	GLU=91	Chain=B	(x,y,z)=(-4.824,80.172,-12.254)
+10:13:0(elap:8):	5362	C=CA	THR=8	Chain=C	(x,y,z)=(32.254,109.267,-35.583)
+10:13:0(elap:8):	7362	C=CG	PRO=260	Chain=C	(x,y,z)=(39.174,119.097,-42.824)
+10:13:0(elap:8):	Starting Atoms Data report for 1RJE
+10:13:0(elap:8):	Starting Geometric Core Data report for 1RJE
+10:13:1(elap:168):	22217	N=N	LEU=1412	Chain=B	(x,y,z)=(20.333,-17.968,120.801)
+10:13:2(elap:10):	Starting Atoms Data report for 1RJE
+10:13:2(elap:10):	Starting Geometric Core Data report for 1RJE
+10:13:3(elap:170):	24217	O=O	TRP=1656	Chain=B	(x,y,z)=(22.383,-64.819,194.294)
+10:13:3(elap:11):	----- 0 / 1 ---- 9 / 14 --- 1YCY--------
+10:13:3(elap:11):	1464	N=N	VAL=19	Chain=D	(x,y,z)=(75.374,30.636,98.889)
+10:13:3(elap:11):	Starting Atoms Data report for 1YCY
+10:13:3(elap:11):	Starting Geometric Core Data report for 1YCY
+10:13:3(elap:11):	----- 0 / 1 ---- 10 / 14 --- 3VBB--------
+10:13:3(elap:11):	495	C=CD	LYS=62	Chain=A	(x,y,z)=(-21.586,155.451,57.469)
+10:13:3(elap:11):	2495	C=CA	ASP=334	Chain=A	(x,y,z)=(-55.427,140.273,34.144)
+10:13:3(elap:11):	4495	O=O	ARG=121	Chain=B	(x,y,z)=(-63.515,68.647,66.97)
+10:13:4(elap:12):	6495	C=CH2	TRP=382	Chain=B	(x,y,z)=(-36.262,87.551,22.425)
+10:13:4(elap:12):	8495	N=NH1	ARG=165	Chain=C	(x,y,z)=(13.681,45.895,-39.271)
+10:13:4(elap:12):	10495	O=OG1	THR=434	Chain=C	(x,y,z)=(5.393,54.341,-20.505)
+10:13:4(elap:12):	12495	N=N	ILE=223	Chain=D	(x,y,z)=(-0.709,69.186,-20.607)
+10:13:4(elap:12):	14495	C=CA	ARG=20	Chain=E	(x,y,z)=(-36.311,88.833,4.232)
+10:13:4(elap:12):	16495	C=CB	GLU=304	Chain=E	(x,y,z)=(-30.284,118.708,9.628)
+10:13:4(elap:12):	18495	C=CA	ALA=96	Chain=F	(x,y,z)=(-42.106,180.704,48.023)
+10:13:4(elap:12):	20495	N=N	ASN=363	Chain=F	(x,y,z)=(-31.14,156.495,-20.51)
+10:13:5(elap:172):	26217	O=O	SER=1906	Chain=B	(x,y,z)=(5.072,-40.963,170.715)
+10:13:5(elap:13):	Starting Atoms Data report for 3VBB
+10:13:6(elap:14):	Starting Geometric Core Data report for 3VBB
+10:13:8(elap:175):	28217	O=O	GLU=2161	Chain=B	(x,y,z)=(22.752,-20.171,173.165)
+10:13:9(elap:17):	Starting Atoms Data report for 3VBB
+10:13:9(elap:17):	Starting Geometric Core Data report for 3VBB
+10:13:10(elap:177):	30217	C=C	ARG=2412	Chain=B	(x,y,z)=(26.054,11.492,183.711)
+10:13:12(elap:179):	32217	O=O	ARG=2659	Chain=B	(x,y,z)=(-2.275,14.701,156.2)
+10:13:13(elap:21):	----- 0 / 1 ---- 11 / 14 --- 4AKG--------
+10:13:13(elap:21):	217	C=CB	LYS=44	Chain=A	(x,y,z)=(51.464,9.251,119.295)
+10:13:13(elap:21):	2217	N=N	ILE=1502	Chain=A	(x,y,z)=(46.05,-36.899,82.374)
+10:13:13(elap:21):	4217	N=N	SER=1746	Chain=A	(x,y,z)=(73.126,-73.876,25.889)
+10:13:13(elap:21):	6217	C=CG1	VAL=2001	Chain=A	(x,y,z)=(75.459,-29.445,6.943)
+10:13:13(elap:21):	8217	C=CA	ASP=2255	Chain=A	(x,y,z)=(66.03,14.835,-7.464)
+10:13:13(elap:21):	10217	C=CD	GLN=2508	Chain=A	(x,y,z)=(58.996,-8.639,22.996)
+10:13:13(elap:21):	12217	N=N	GLN=2751	Chain=A	(x,y,z)=(67.093,20.671,53.688)
+10:13:13(elap:21):	14217	N=NH2	ARG=3015	Chain=A	(x,y,z)=(93.456,1.395,106.352)
+10:13:13(elap:21):	16217	N=NH1	ARG=3528	Chain=A	(x,y,z)=(106.572,-25.944,72.859)
+10:13:14(elap:22):	18217	O=O	VAL=3777	Chain=A	(x,y,z)=(113.814,-43.754,63.128)
+10:13:14(elap:22):	20217	O=O	GLY=4026	Chain=A	(x,y,z)=(123.556,-59.58,25.522)
+10:13:14(elap:22):	22217	N=N	LEU=1412	Chain=B	(x,y,z)=(20.333,-17.968,120.801)
+10:13:14(elap:22):	24217	O=O	TRP=1656	Chain=B	(x,y,z)=(22.383,-64.819,194.294)
+10:13:14(elap:22):	26217	O=O	SER=1906	Chain=B	(x,y,z)=(5.072,-40.963,170.715)
+10:13:14(elap:22):	28217	O=O	GLU=2161	Chain=B	(x,y,z)=(22.752,-20.171,173.165)
+10:13:14(elap:22):	30217	C=C	ARG=2412	Chain=B	(x,y,z)=(26.054,11.492,183.711)
+10:13:14(elap:22):	32217	O=O	ARG=2659	Chain=B	(x,y,z)=(-2.275,14.701,156.2)
+10:13:14(elap:22):	34217	C=CA	PHE=2909	Chain=B	(x,y,z)=(8.937,12.009,159.772)
+10:13:14(elap:22):	36217	C=C	PHE=3436	Chain=B	(x,y,z)=(15.232,-14.074,134.097)
+10:13:14(elap:22):	38217	C=CD1	PHE=3686	Chain=B	(x,y,z)=(-21.433,-36.027,148.028)
+10:13:14(elap:181):	34217	C=CA	PHE=2909	Chain=B	(x,y,z)=(8.937,12.009,159.772)
+10:13:14(elap:22):	40217	N=N	SER=3933	Chain=B	(x,y,z)=(-10.361,-62.634,176.503)
+10:13:15(elap:23):	Starting Atoms Data report for 4AKG
+10:13:15(elap:23):	Starting Geometric Core Data report for 4AKG
+10:13:16(elap:183):	36217	C=C	PHE=3436	Chain=B	(x,y,z)=(15.232,-14.074,134.097)
+10:13:19(elap:186):	38217	C=CD1	PHE=3686	Chain=B	(x,y,z)=(-21.433,-36.027,148.028)
+10:13:19(elap:27):	----- 0 / 1 ---- 12 / 14 --- 6ADG--------
+10:13:19(elap:27):	1264	C=CA	GLN=163	Chain=A	(x,y,z)=(-58.043,-0.681,-8.781)
+10:13:19(elap:27):	3264	N=N	LYS=3	Chain=B	(x,y,z)=(-102.096,53.384,-40.556)
+10:13:19(elap:27):	5264	C=CD1	LEU=250	Chain=B	(x,y,z)=(-50.588,32.85,-31.708)
+10:13:19(elap:27):	7264	C=C	TYR=135	Chain=C	(x,y,z)=(-77.729,92.036,-38.826)
+10:13:19(elap:27):	9264	O=O	LYS=406	Chain=C	(x,y,z)=(-55.51,80.632,-0.99)
+10:13:19(elap:27):	Starting Atoms Data report for 6ADG
+10:13:20(elap:28):	Starting Geometric Core Data report for 6ADG
+10:13:21(elap:188):	40217	N=N	SER=3933	Chain=B	(x,y,z)=(-10.361,-62.634,176.503)
+10:13:21(elap:29):	----- 0 / 1 ---- 13 / 14 --- 4S0S--------
+10:13:21(elap:29):	1111	C=C	GLU=300	Chain=A	(x,y,z)=(-31.847,25.329,4.214)
+10:13:21(elap:29):	3111	C=CG	GLN=285	Chain=B	(x,y,z)=(-42.699,38.847,-33.388)
+10:13:21(elap:29):	5111	C=CG1	VAL=26	Chain=E	(x,y,z)=(-22.045,52.446,-44.842)
+10:13:22(elap:30):	Starting Atoms Data report for 4S0S
+10:13:22(elap:30):	Starting Geometric Core Data report for 4S0S
+10:13:23(elap:31):	Starting Atoms Data report for 4S0S
+10:13:23(elap:31):	Starting Geometric Core Data report for 4S0S
+10:13:37(elap:204):	Starting Atoms Data report for 4AKG
+10:13:42(elap:209):	Starting Geometric Core Data report for 4AKG
+10:13:43(elap:210):	----- 0 / 1 ---- 12 / 14 --- 6ADG--------
+10:13:45(elap:212):	1264	C=CA	GLN=163	Chain=A	(x,y,z)=(-58.043,-0.681,-8.781)
+10:13:47(elap:214):	3264	N=N	LYS=3	Chain=B	(x,y,z)=(-102.096,53.384,-40.556)
+10:13:49(elap:216):	5264	C=CD1	LEU=250	Chain=B	(x,y,z)=(-50.588,32.85,-31.708)
+10:13:51(elap:0):	********** Starting Geometry calculations for PSU-BETA **************
+10:13:51(elap:0):	----- 0 / 1 ---- 1 / 14 --- 2C4N--------
+10:13:51(elap:0):	NCS Model=TRUE
+10:13:51(elap:0):	1599	C=CB	ALA=209	Chain=A	(x,y,z)=(6.019,21.034,3.612)
+10:13:51(elap:0):	Starting Atoms Data report for 2C4N
+10:13:51(elap:0):	Starting Geometric Core Data report for 2C4N
+10:13:52(elap:1):	----- 0 / 1 ---- 2 / 14 --- 3O4P--------
+10:13:52(elap:1):	NCS Model=TRUE
+10:13:52(elap:219):	7264	C=C	TYR=135	Chain=C	(x,y,z)=(-77.729,92.036,-38.826)
+10:13:52(elap:1):	827	O=O	GLY=56	Chain=A	(x,y,z)=(9.688,-13.345,34.756)
+10:13:52(elap:1):	2107	C=C	ARG=146	Chain=A	(x,y,z)=(-1.625,5.818,12.932)
+10:13:52(elap:1):	Starting Atoms Data report for 3O4P
+10:13:53(elap:2):	Starting Geometric Core Data report for 3O4P
+10:13:53(elap:2):	Starting Atoms Data report for 3O4P
+10:13:53(elap:2):	Starting Geometric Core Data report for 3O4P
+10:13:54(elap:3):	Starting Atoms Data report for 3O4P
+10:13:54(elap:3):	Starting Geometric Core Data report for 3O4P
+10:13:54(elap:3):	Starting Atoms Data report for 3O4P
+10:13:54(elap:3):	Starting Geometric Core Data report for 3O4P
+10:13:55(elap:222):	9264	O=O	LYS=406	Chain=C	(x,y,z)=(-55.51,80.632,-0.99)
+10:13:55(elap:4):	----- 0 / 1 ---- 3 / 14 --- 1EJG--------
+10:13:55(elap:4):	NCS Model=TRUE
+10:13:55(elap:4):	Starting Atoms Data report for 1EJG
+10:13:55(elap:4):	Starting Geometric Core Data report for 1EJG
+10:13:55(elap:4):	Starting Atoms Data report for 1EJG
+10:13:55(elap:4):	Starting Geometric Core Data report for 1EJG
+10:13:55(elap:4):	Starting Atoms Data report for 1EJG
+10:13:55(elap:4):	Starting Geometric Core Data report for 1EJG
+10:13:55(elap:4):	----- 0 / 1 ---- 4 / 14 --- 1BVR--------
+10:13:55(elap:4):	1233	C=C	SER=166	Chain=A	(x,y,z)=(13.213,0.83,2.433)
+10:13:55(elap:4):	3233	C=CA	ALA=167	Chain=B	(x,y,z)=(15.316,0.277,-2.389)
+10:13:55(elap:4):	5233	C=CA	LEU=168	Chain=C	(x,y,z)=(40.116,10.415,52.526)
+10:13:56(elap:5):	7233	C=CD1	LEU=168	Chain=D	(x,y,z)=(32.511,17.251,64.39)
+10:13:56(elap:5):	9233	O=O	GLU=169	Chain=E	(x,y,z)=(24.628,-6.11,71.394)
+10:13:56(elap:5):	11233	O=OE2	GLU=169	Chain=F	(x,y,z)=(31.413,-9.339,61.2)
+10:13:56(elap:5):	Starting Atoms Data report for 1BVR
+10:13:56(elap:5):	Starting Geometric Core Data report for 1BVR
+10:13:56(elap:5):	----- 0 / 1 ---- 5 / 14 --- 6J4A--------
+10:13:56(elap:5):	1228	C=CG2	VAL=152	Chain=A	(x,y,z)=(230.07,184.946,158.696)
+10:13:57(elap:6):	3228	C=CA	ALA=52	Chain=C	(x,y,z)=(292.159,119.925,151.243)
+10:13:57(elap:6):	5228	C=CB	ASP=123	Chain=D	(x,y,z)=(279.935,105.33,178.755)
+10:13:57(elap:6):	7228	N=N	ILE=24	Chain=F	(x,y,z)=(258.018,198.324,111.982)
+10:13:57(elap:6):	9228	O=OD1	ASP=92	Chain=G	(x,y,z)=(256.904,148.659,202.149)
+10:13:57(elap:6):	11228	C=C	GLU=167	Chain=H	(x,y,z)=(243.389,127.344,158.741)
+10:13:57(elap:6):	13228	C=CG	ARG=63	Chain=J	(x,y,z)=(257.538,137.815,116.6)
+10:13:57(elap:6):	15228	C=CG2	THR=135	Chain=K	(x,y,z)=(311.571,158.421,121.001)
+10:13:57(elap:6):	Starting Atoms Data report for 6J4A
+10:13:57(elap:6):	Starting Geometric Core Data report for 6J4A
+10:13:58(elap:7):	----- 0 / 1 ---- 6 / 14 --- 1IX9--------
+10:13:58(elap:7):	732	C=CD	LYS=86	Chain=A	(x,y,z)=(-0.13,31.59,1.911)
+10:13:58(elap:7):	1732	O=O	LYS=205	Chain=A	(x,y,z)=(10.608,46.747,-3.554)
+10:13:58(elap:7):	Starting Atoms Data report for 1IX9
+10:13:58(elap:7):	Starting Geometric Core Data report for 1IX9
+10:13:58(elap:7):	Starting Atoms Data report for 1IX9
+10:13:58(elap:7):	Starting Geometric Core Data report for 1IX9
+10:13:59(elap:8):	Starting Atoms Data report for 1IX9
+10:13:59(elap:8):	Starting Geometric Core Data report for 1IX9
+10:13:59(elap:8):	----- 0 / 1 ---- 7 / 14 --- 5A9X--------
+10:13:59(elap:8):	1170	N=N	MET=183	Chain=A	(x,y,z)=(-0.434,-11.499,18.567)
+10:13:59(elap:8):	3170	N=NH1	ARG=452	Chain=A	(x,y,z)=(-10.907,-61.503,37.45)
+10:13:59(elap:8):	Starting Atoms Data report for 5A9X
+10:14:0(elap:9):	Starting Geometric Core Data report for 5A9X
+10:14:1(elap:10):	----- 0 / 1 ---- 8 / 14 --- 1RJE--------
+10:14:1(elap:10):	1362	O=O	ALA=172	Chain=A	(x,y,z)=(17.241,95.879,11.429)
+10:14:1(elap:10):	3362	C=CG	GLU=91	Chain=B	(x,y,z)=(-4.824,80.172,-12.254)
+10:14:1(elap:10):	5362	C=CA	THR=8	Chain=C	(x,y,z)=(32.254,109.267,-35.583)
+10:14:1(elap:10):	7362	C=CG	PRO=260	Chain=C	(x,y,z)=(39.174,119.097,-42.824)
+10:14:1(elap:10):	Starting Atoms Data report for 1RJE
+10:14:2(elap:11):	Starting Geometric Core Data report for 1RJE
+10:14:3(elap:12):	Starting Atoms Data report for 1RJE
+10:14:3(elap:12):	Starting Geometric Core Data report for 1RJE
+10:14:4(elap:231):	Starting Atoms Data report for 6ADG
+10:14:4(elap:13):	----- 0 / 1 ---- 9 / 14 --- 1YCY--------
+10:14:5(elap:14):	1464	N=N	VAL=19	Chain=D	(x,y,z)=(75.374,30.636,98.889)
+10:14:5(elap:14):	Starting Atoms Data report for 1YCY
+10:14:5(elap:14):	Starting Geometric Core Data report for 1YCY
+10:14:5(elap:14):	----- 0 / 1 ---- 10 / 14 --- 3VBB--------
+10:14:5(elap:14):	495	C=CD	LYS=62	Chain=A	(x,y,z)=(-21.586,155.451,57.469)
+10:14:5(elap:14):	2495	C=CA	ASP=334	Chain=A	(x,y,z)=(-55.427,140.273,34.144)
+10:14:5(elap:14):	4495	O=O	ARG=121	Chain=B	(x,y,z)=(-63.515,68.647,66.97)
+10:14:5(elap:14):	6495	C=CH2	TRP=382	Chain=B	(x,y,z)=(-36.262,87.551,22.425)
+10:14:5(elap:14):	8495	N=NH1	ARG=165	Chain=C	(x,y,z)=(13.681,45.895,-39.271)
+10:14:5(elap:14):	10495	O=OG1	THR=434	Chain=C	(x,y,z)=(5.393,54.341,-20.505)
+10:14:5(elap:14):	12495	N=N	ILE=223	Chain=D	(x,y,z)=(-0.709,69.186,-20.607)
+10:14:5(elap:14):	14495	C=CA	ARG=20	Chain=E	(x,y,z)=(-36.311,88.833,4.232)
+10:14:6(elap:15):	16495	C=CB	GLU=304	Chain=E	(x,y,z)=(-30.284,118.708,9.628)
+10:14:6(elap:15):	18495	C=CA	ALA=96	Chain=F	(x,y,z)=(-42.106,180.704,48.023)
+10:14:6(elap:15):	20495	N=N	ASN=363	Chain=F	(x,y,z)=(-31.14,156.495,-20.51)
+10:14:7(elap:16):	Starting Atoms Data report for 3VBB
+10:14:7(elap:16):	Starting Geometric Core Data report for 3VBB
+10:14:8(elap:235):	Starting Geometric Core Data report for 6ADG
+10:14:8(elap:235):	----- 0 / 1 ---- 13 / 14 --- 4S0S--------
+10:14:10(elap:237):	1111	C=C	GLU=300	Chain=A	(x,y,z)=(-31.847,25.329,4.214)
+10:14:11(elap:20):	Starting Atoms Data report for 3VBB
+10:14:11(elap:20):	Starting Geometric Core Data report for 3VBB
+10:14:13(elap:240):	3111	C=CG	GLN=285	Chain=B	(x,y,z)=(-42.699,38.847,-33.388)
+10:14:15(elap:24):	----- 0 / 1 ---- 11 / 14 --- 4AKG--------
+10:14:15(elap:24):	217	C=CB	LYS=44	Chain=A	(x,y,z)=(51.464,9.251,119.295)
+10:14:16(elap:25):	2217	N=N	ILE=1502	Chain=A	(x,y,z)=(46.05,-36.899,82.374)
+10:14:16(elap:25):	4217	N=N	SER=1746	Chain=A	(x,y,z)=(73.126,-73.876,25.889)
+10:14:16(elap:25):	6217	C=CG1	VAL=2001	Chain=A	(x,y,z)=(75.459,-29.445,6.943)
+10:14:16(elap:243):	5111	C=CG1	VAL=26	Chain=E	(x,y,z)=(-22.045,52.446,-44.842)
+10:14:16(elap:25):	8217	C=CA	ASP=2255	Chain=A	(x,y,z)=(66.03,14.835,-7.464)
+10:14:16(elap:25):	10217	C=CD	GLN=2508	Chain=A	(x,y,z)=(58.996,-8.639,22.996)
+10:14:16(elap:25):	12217	N=N	GLN=2751	Chain=A	(x,y,z)=(67.093,20.671,53.688)
+10:14:16(elap:25):	14217	N=NH2	ARG=3015	Chain=A	(x,y,z)=(93.456,1.395,106.352)
+10:14:16(elap:25):	16217	N=NH1	ARG=3528	Chain=A	(x,y,z)=(106.572,-25.944,72.859)
+10:14:16(elap:25):	18217	O=O	VAL=3777	Chain=A	(x,y,z)=(113.814,-43.754,63.128)
+10:14:16(elap:25):	20217	O=O	GLY=4026	Chain=A	(x,y,z)=(123.556,-59.58,25.522)
+10:14:16(elap:25):	22217	N=N	LEU=1412	Chain=B	(x,y,z)=(20.333,-17.968,120.801)
+10:14:16(elap:25):	24217	O=O	TRP=1656	Chain=B	(x,y,z)=(22.383,-64.819,194.294)
+10:14:16(elap:25):	26217	O=O	SER=1906	Chain=B	(x,y,z)=(5.072,-40.963,170.715)
+10:14:17(elap:26):	28217	O=O	GLU=2161	Chain=B	(x,y,z)=(22.752,-20.171,173.165)
+10:14:17(elap:26):	30217	C=C	ARG=2412	Chain=B	(x,y,z)=(26.054,11.492,183.711)
+10:14:17(elap:26):	32217	O=O	ARG=2659	Chain=B	(x,y,z)=(-2.275,14.701,156.2)
+10:14:17(elap:26):	34217	C=CA	PHE=2909	Chain=B	(x,y,z)=(8.937,12.009,159.772)
+10:14:17(elap:26):	36217	C=C	PHE=3436	Chain=B	(x,y,z)=(15.232,-14.074,134.097)
+10:14:17(elap:26):	38217	C=CD1	PHE=3686	Chain=B	(x,y,z)=(-21.433,-36.027,148.028)
+10:14:17(elap:26):	40217	N=N	SER=3933	Chain=B	(x,y,z)=(-10.361,-62.634,176.503)
+10:14:18(elap:27):	Starting Atoms Data report for 4AKG
+10:14:19(elap:28):	Starting Geometric Core Data report for 4AKG
+10:14:23(elap:32):	----- 0 / 1 ---- 12 / 14 --- 6ADG--------
+10:14:23(elap:32):	1264	C=CA	GLN=163	Chain=A	(x,y,z)=(-58.043,-0.681,-8.781)
+10:14:23(elap:32):	3264	N=N	LYS=3	Chain=B	(x,y,z)=(-102.096,53.384,-40.556)
+10:14:23(elap:32):	5264	C=CD1	LEU=250	Chain=B	(x,y,z)=(-50.588,32.85,-31.708)
+10:14:23(elap:32):	7264	C=C	TYR=135	Chain=C	(x,y,z)=(-77.729,92.036,-38.826)
+10:14:23(elap:32):	9264	O=O	LYS=406	Chain=C	(x,y,z)=(-55.51,80.632,-0.99)
+10:14:23(elap:32):	Starting Atoms Data report for 6ADG
+10:14:24(elap:33):	Starting Geometric Core Data report for 6ADG
+10:14:25(elap:34):	----- 0 / 1 ---- 13 / 14 --- 4S0S--------
+10:14:26(elap:35):	1111	C=C	GLU=300	Chain=A	(x,y,z)=(-31.847,25.329,4.214)
+10:14:26(elap:35):	3111	C=CG	GLN=285	Chain=B	(x,y,z)=(-42.699,38.847,-33.388)
+10:14:26(elap:35):	5111	C=CG1	VAL=26	Chain=E	(x,y,z)=(-22.045,52.446,-44.842)
+10:14:26(elap:35):	Starting Atoms Data report for 4S0S
+10:14:26(elap:35):	Starting Geometric Core Data report for 4S0S
+10:14:27(elap:254):	Starting Atoms Data report for 4S0S
+10:14:27(elap:36):	Starting Atoms Data report for 4S0S
+10:14:27(elap:36):	Starting Geometric Core Data report for 4S0S
+10:14:29(elap:38):	Completed
+10:14:29(elap:256):	Starting Geometric Core Data report for 4S0S
+10:14:29(elap:256):	Starting Atoms Data report for 4S0S
+10:14:29(elap:256):	Starting Geometric Core Data report for 4S0S

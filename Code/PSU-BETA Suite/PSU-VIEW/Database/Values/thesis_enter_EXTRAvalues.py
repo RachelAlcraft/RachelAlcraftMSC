@@ -15,7 +15,7 @@ import os
 def enterOneValueFile(file_name):
 # Set parameters
     dbname   = "ab002"
-    dbhost   = "hope"
+    dbhost   = "thoth.cryst.bbk.ac.uk"
     dbuser   = "ab002"
     dbpass   = "4603v58-3"
     port     = 3306
@@ -39,6 +39,12 @@ def enterOneValueFile(file_name):
     #12=Value
 
     #6V7G,A,A,46,N-CA,N-CA,ASN,46-46,ASN-ASN,1-2,U,COREBOND,1.485
+
+    # Connect to the database
+    db = pymysql.connect(host=dbhost, port=port, user=dbuser, passwd=dbpass, db=dbname)
+    # Create a cursor and execute the SQL on it
+    cursor = db.cursor()
+        
     
     # each row is entered into the same database row potentially, has to be done per row
     rows = len(df.index)
@@ -56,58 +62,9 @@ def enterOneValueFile(file_name):
         colaminos = "aminos_" + colval
         colcodes = "codes_" + colval    
         #print(colval,colatoms,colaminos,colcodes)
-        
-        row = ()
-        
-        
-        row += (str(df.iloc[r,0]),) # pdb code        
-        row += (str(df.iloc[r,1]),) # occupant
-        row += (str(df.iloc[r,2]),) # chain`
-        row += (str(df.iloc[r,3]),) # amino_no
-        row += (str(df.iloc[r,6]),) # amino_code
-        row += (str(df.iloc[r,10]),) # ss_psu        
-        row += (str(round(df.iloc[r,12],3)),) # value
-        row += (str(df.iloc[r,9]),) # atoms
-        row += (str(df.iloc[r,7]),) # aminos
-        row += (str(df.iloc[r,8]),) # codes
-        # double these???
-        #row += (str(round(df.iloc[r,12],3)),) # value
-        #row += (str(df.iloc[r,9]),) # atoms
-        #row += (str(df.iloc[r,7]),) # aminos
-        #row += (str(df.iloc[r,8]),) # codes
-                 
-        csv_data.append(row)
-            
-        # Create SQL statement to find information for proteins from Leishmania
-        
-        sql = "INSERT INTO geo_core ("
-        sql += "pdb_code,"
-        sql += "occupant,"
-        sql += "chain,"
-        sql += "amino_no,"
-        sql += "amino_code,"
-        sql += "ss_psu,"
-        sql += colval + ","
-        sql += colatoms + ","
-        sql += colaminos + ","      
-        sql += colcodes + ") \nVALUES ("    
-        sql += "%s,"
-        sql += "%s,"
-        sql += "%s,"
-        sql += "%s,"
-        sql += "%s,"
-        sql += "%s,"
-        sql += "%s,"
-        sql += "%s,"
-        sql += "%s," 
-        sql += "%s)"
-        sql += "\nON DUPLICATE KEY UPDATE "
-        sql += colval + "=%s, "
-        sql += colatoms + "=%s, "
-        sql += colaminos + "=%s, "
-        sql += colcodes + "=%s"
-        
-        sql2 = "INSERT INTO geo_core ("
+                        
+        # Create SQL statement to find information for proteins from Leishmania                    
+        sql2 = "INSERT INTO geo_extra_v1 ("
         sql2 += "pdb_code,"
         sql2 += "occupant,"
         sql2 += "chain,"
@@ -134,19 +91,13 @@ def enterOneValueFile(file_name):
         sql2 += colaminos + "='" + str(df.iloc[r,7]) + "', "
         sql2 += colcodes + "='" + str(df.iloc[r,8]) + "'"
 
-        #if r%100 == 0:
-        print(r,"/",rows)
-        print(sql)
-        print(csv_data)
-        
-        # Connect to the database
-        db = pymysql.connect(host=dbhost, port=port, user=dbuser, passwd=dbpass, db=dbname)
-        # Create a cursor and execute the SQL on it
-        cursor = db.cursor()    
-        #cursor.executemany(sql,csv_data)
+        if r%100 == 0:
+            print(r,"/",rows)
+                        
         cursor.execute(sql2)
         db.commit()        
-        cursor.close()
+
+    cursor.close()
 
 
 #########################################################

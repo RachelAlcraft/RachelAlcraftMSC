@@ -1,0 +1,1 @@
+PdbCode,Occupant,Chain,AminoNo,GeoAtoms,Alias,AminoCode,AminoNos,AminoCodes,AtomNos,SecStruct,GeoType,Value

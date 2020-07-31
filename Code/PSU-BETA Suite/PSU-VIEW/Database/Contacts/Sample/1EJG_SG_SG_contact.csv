@@ -1,0 +1,7 @@
+pdb_code,amino_code,amino_no,chain,residue_no,atom_no,occupant,ss_psu,amino_code_b,amino_no_b,chain_b,residue_no_b,atom_no_b,occupant_b,ss_psu_b,geo_atoms,geo_type,geo_value
+1EJG,CYS,3,A,3,60,A,B,CYS,40,A,40,749,A,P,SG-SG,CONTACT,2.0307
+1EJG,CYS,4,A,4,70,A,B,CYS,32,A,32,616,A,P,SG-SG,CONTACT,2.04713
+1EJG,CYS,16,A,16,310,A,A,CYS,26,A,26,516,A,A,SG-SG,CONTACT,2.03591
+1EJG,CYS,26,A,26,516,A,A,CYS,16,A,16,310,A,A,SG-SG,CONTACT,2.03591
+1EJG,CYS,32,A,32,616,A,P,CYS,4,A,4,70,A,B,SG-SG,CONTACT,2.04713
+1EJG,CYS,40,A,40,749,A,P,CYS,3,A,3,60,A,B,SG-SG,CONTACT,2.0307

@@ -1,0 +1,21 @@
+CREATE TABLE geo_contact
+(pdb_code CHAR(4) NOT NULL,
+amino_code CHAR(3) NOT NULL,
+amino_no SMALLINT NOT NULL,
+chain CHAR(1) NOT NULL,
+residue_no SMALLINT NOT NULL,
+atom_no SMALLINT NOT NULL,
+occupant CHAR(1) NOT NULL,
+ss_psu VARCHAR(3) NOT NULL,
+amino_code_b CHAR(3) NOT NULL,
+amino_no_b SMALLINT NOT NULL,
+chain_b CHAR(1) NOT NULL,
+residue_no_b SMALLINT NOT NULL,
+atom_no_b SMALLINT NOT NULL,
+occupant_b CHAR(1) NOT NULL,
+ss_psu_b VARCHAR(3) NOT NULL,
+geo_atoms VARCHAR(20) NOT NULL,
+geo_type VARCHAR(15) NOT NULL,
+geo_value DECIMAL(10,3) NOT NULL,
+PRIMARY KEY (pdb_code,occupant,occupant_b,chain,amino_no,amino_no_b,geo_atoms)
+) ENGINE=InnoDB;
