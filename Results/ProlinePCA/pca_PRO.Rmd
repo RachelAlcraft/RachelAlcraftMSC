@@ -1,0 +1,107 @@
+---
+title: "PCA Analysis of Prloline CHi1 to Chi5"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Ramachandran Plot
+
+
+```{r data, echo=FALSE}
+library(ggplot2)
+library(gridExtra)
+filename = "chi1_to_5_all_high.csv"
+ddata <- read.csv(filename,stringsAsFactors = FALSE, row.names=NULL)
+ddata$CHI1= as.numeric(ddata$CHI1)
+ddata$CHI2= as.numeric(ddata$CHI2)
+ddata$CHI3= as.numeric(ddata$CHI3)
+ddata$CHI4= as.numeric(ddata$CHI4)
+ddata$CHI5= as.numeric(ddata$CHI5)
+
+numericdata<- dplyr::select ( ddata,CHI1,CHI2,CHI3,CHI4,CHI5 )
+
+numericdata <- subset(numericdata,CHI1!= "None")
+numericdata <- subset(numericdata,CHI2!= "None")
+numericdata <- subset(numericdata,CHI3!= "None")
+numericdata <- subset(numericdata,CHI4!= "None")
+numericdata <- subset(numericdata,CHI5!= "None")
+
+rows = nrow(numericdata)
+```
+
+## PCA Analysis
+
+Analysis on prolne CHI1 to 5
+
+Scale true or false changes results dramatically
+
+```{r pca, echo=TRUE}
+#Carry out PCA analysis
+pcaasp <- prcomp(numericdata, center = TRUE, scale = TRUE, na.action=na.omit)
+summary(pcaasp)
+```
+
+
+```{r pcaplot, echo=FALSE}
+#plot result in plane of some of the eigenvectors
+
+pcaframe<-data.frame(pcaasp$x[, 1],-pcaasp$x[, 2],pcaasp$x[, 3],pcaasp$x[, 4],pcaasp$x[, 5])
+pcaframe <- setNames(pcaframe, c("a","b","c","d","e"))
+
+p12 <- ggplot(pcaframe, aes(x=a, y=b,color=c)) + 
+  ggtitle(paste("PCA")) + 
+  geom_point(size=1) + 
+  xlab('PC1') + 
+  ylab('PC2')
+
+p23 <- ggplot(pcaframe, aes(x=b, y=c,color=d)) + 
+  ggtitle(paste("PCA")) + 
+  geom_point(size=1) + 
+  xlab('PC2') + 
+  ylab('PC3')
+
+p34 <- ggplot(pcaframe, aes(x=c, y=d,color=a)) + 
+  ggtitle(paste("PCA")) + 
+  geom_point(size=1) + 
+  xlab('PC3') + 
+  ylab('PC4')
+
+p45 <- ggplot(pcaframe, aes(x=d, y=e,color=a)) + 
+  ggtitle(paste("PCA")) + 
+  geom_point(size=1) + 
+  xlab('PC4') + 
+  ylab('PC5')
+
+grid.arrange(p12,p23,p34,p45,nrow=2)
+
+#Create a data frame with the PCA output
+pcaframe<-data.frame(pcaasp$x[, 1],-pcaasp$x[, 2])
+
+#Try to find a good number of clusters taking into account variance within each cluster 
+withingroupss <- (nrow(pcaframe)-1)*sum(apply(pcaframe,2,var))
+for (i in 2:5) withingroupss[i] <- sum(kmeans(pcaframe,centers=i)$withinss)
+par(pin=c(2,2),font=2,ps=10,family="sans")
+plot(1:4, withingroupss[1:4], type="b", xlab="Number of Clusters",ylab="Within groups..")
+
+#Three looks like a good number
+myclusters <- kmeans(pcaframe,2)
+#Label the data with k-means group id and original group id
+mynewdata <- data.frame(pcaframe, myclusters$cluster)#,c(rep("A",2147),rep("B",6441),rep("C",2147)) )
+
+#Plot the clusters
+library(cluster)
+#clusplot(mynewdata, myclusters$cluster,color=TRUE, shade=TRUE, labels=1, lines=0)
+clusplot(pcaframe, myclusters$cluster,color=TRUE, shade=TRUE, labels=1, lines=2)
+#clusplot(numericdata, myclusters$cluster,color=TRUE, shade=TRUE, labels=1, lines=0)
+#(need to press ESC with mouse in graphics window to get out of clusplot)  
+
+
+```
+
+
+

@@ -1,0 +1,3 @@
+select CHI1,CHI2,CHI3,CHI4,CHI5, amino_no,chain, pdb_code
+FROM geo_high_v1
+WHERE amino_code = 'PRO';

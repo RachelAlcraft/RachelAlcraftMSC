@@ -1,0 +1,5 @@
+select CHI1,CHI2,CHI3,CHI4,CHI5, amino_no,chain, g.pdb_code
+FROM geo_high_v1 g, protein_structure_v1 p
+WHERE g.pdb_code = p.pdb_code
+AND amino_code = 'PRO'
+AND resolution <=0.9
