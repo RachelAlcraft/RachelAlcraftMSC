@@ -1,0 +1,391 @@
+* { 
+  word-wrap:break-word;
+  font: 12pt Helvetica, Arial, sans-serif;
+  color: DarkBlue;
+}
+
+body{
+  background-color: lightblue;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1{
+  font: 24pt Helvetica, Arial, sans-serif;
+  color: MidnightBlue;
+}
+
+img{
+  border: 2px solid MistyRose;
+}
+
+.middlecentre img{
+  border: 5px solid LightSeaGreen;
+  width: 50%;
+}
+
+.middlecentre{
+ background-color: aliceblue;
+}
+
+.thesisheader{
+ background-color: LightSeaGreen;
+   margin: 10px auto;
+  padding: 10px;
+}
+
+.middlecentre p{
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.middlecentre a{
+  color: DarkRed;
+}
+
+.middle{
+ background-color: aliceblue;
+}
+
+.psu{
+ background-image: url('http://student.cryst.bbk.ac.uk/~ab002/img/psu.png');
+  background-size: cover;
+  background-size: 100% 100%;
+
+}
+.psu p{
+  opacity: 1.0;
+}
+
+
+
+.smallmiddle{
+ background-color: aliceblue;
+  text-align: left;
+  margin: 10px auto;
+  color: DarkRed;
+  padding: 10px;
+  font: 10pt Helvetica, Arial, sans-serif;
+}
+
+.middle a{
+  color: DarkRed;
+}
+
+.middle p{
+  text-align: left;
+  margin: 10px auto;
+  padding: 10px;
+  white-space: pre-wrap;
+  overflow: auto;
+}
+
+.greyparagraph{
+ background-color: silver;
+}
+
+.greyparagraph p{
+  text-align: left;
+  margin: 10px auto;
+  padding: 10px;
+  white-space: pre-wrap;
+  overflow: auto;
+}
+
+
+.banner p{
+  text-align: left;
+  margin: 10px auto;
+  padding: 10px;
+  white-space: pre-wrap;
+  overflow: auto;
+  background-color: Indigo;
+  color: HoneyDew;
+}
+
+.results{
+  text-align: left;
+  color: DarkBlue;
+  font: 8pt Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  overflow: auto;
+}
+.results TEXTAREA{
+  text-align: left;
+  color: Indigo;
+  font: 12pt Helvetica, Arial, sans-serif;
+  white-space: pre-wrap;
+  overflow: auto;
+}
+
+.sqlresults TEXTAREA{
+  text-align: left;
+  color: DarkBlue;
+  font: 12pt Helvetica, Arial, sans-serif;
+  white-space: pre-wrap;
+  overflow: auto;
+  background-color: aliceblue;
+}
+
+#bottom{
+ background-color: LightSeaGreen;
+}
+
+#bottom p{
+  color: DarkRed;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+}
+#bottom a{
+  color: DarkRed;
+  font: 10pt Helvetica, Arial, sans-serif;
+}
+#top-menu{
+  background-color: LightSeaGreen;
+}
+
+#two-menu{
+  background-color: Tan;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+.table_two {
+  display: table;
+  margin: 0 auto;
+}
+
+ul#horizontal-list{
+  min-width: 696px;
+  list-style: none;
+  margin: 20 auto;
+}
+ul#horizontal_two li{
+  display: inline;
+}
+ul#horizontal_two{
+  min-width: 696px;
+  list-style: none;
+  padding-top: 2px;
+  margin: 0 auto;
+}
+ul#horizontal-list li{
+  display: inline;
+}
+
+.searchtable{
+  table-layout:fixed;
+  text-align: left;
+  border: 3px solid AliceBlue;
+  background: LightPink;
+  padding: 2px;
+  max-height: 250px;
+  
+}
+
+.verdsearchtable{
+  table-layout:fixed;
+  text-align: left;
+  border: 3px solid Gold;
+  background: LightSeaGreen;
+  padding: 2px;
+  max-height: 250px;
+  
+}
+
+.searchtable td {
+  background: MistyRose;
+  border: 1px solid PeachPuff;
+  padding: 0px;
+
+}
+
+.searchheader td{
+  background: LightPink;
+  border: 1px solid LightPink;
+  padding: 0px;
+  
+}
+
+.cpptable {
+  table-layout:fixed;
+  text-align: left;
+  border: 3px solid LightPink;
+  background: PeachPuff;
+  padding: 0px;
+  max-height: 250px;
+  overflow-y: scroll;
+  display: block;
+}
+
+
+.cpptable td {
+  background: MistyRose;
+  border: 1px solid PeachPuff;
+  padding: 0px;
+
+}
+
+.cppinnertable tr {
+    max_width: 10px;
+
+}
+.cppinnerheader td {
+  border: 3px solid LightPink;
+  background: LightPink;
+  padding: 0px;
+  color: Maroon;
+
+}
+
+.verdtable {
+  table-layout:fixed;
+  text-align: left;
+  border: 3px solid RebeccaPurple;
+  background: LightGreen;
+  padding: 0px;
+  max-height: 250px;
+  overflow-y: scroll;
+  display: block;
+}
+
+.verdtable td {
+  background: LightGreen;
+  border: 1px solid Gold;
+  padding: 0px;
+
+}
+.verdinnerheader td {
+  border: 3px solid RebeccaPurple;
+  background: RebeccaPurple;
+  padding: 0px;
+  color: Chartreuse;
+
+}
+
+
+
+
+.outtable {
+  text-align: center;
+  border: 3px solid RebeccaPurple;
+  background: Thistle;
+  padding: 1px;
+}
+
+.outtable td {
+  background: Thistle;
+  border: 3px solid Gold;
+  padding: 1px;
+  text-align: center;
+
+}
+
+.outintable td {
+  background: Moccasin;
+  border: 1px solid Indigo;
+  padding: 1px;
+  text-align: center;
+
+}
+
+.outinnerheader {
+  border: 1px solid Gold;
+  background: RebeccaPurple;
+  padding: 1px;
+  color: Gold;
+  text-align: center;
+
+}
+.outinnerheader td {
+  border: 1px solid RebeccaPurple;
+  background: RebeccaPurple;
+  padding: 1px;
+  color: Gold;
+  text-align: center;
+  font: 10pt Helvetica, Arial, sans-serif;
+
+}
+.outinnertable {
+  border: 1px solid RebeccaPurple;
+  background: RebeccaPurple;
+  padding: 1px;
+  color: RebeccaPurple;
+  text-align: center;
+
+}
+.outinnertable td {
+  border: 1px solid Indigo;
+  background: LemonChiffon;
+  padding: 1px;
+  color: RebeccaPurple;
+  text-align: center;
+  font: 10pt Helvetica, Arial, sans-serif;
+
+}
+
+
+
+.calctable {
+  table-layout:fixed;
+  width:100%;
+  text-align: left;
+  border: 3px solid DarkSlateGray;
+  background: DarkSlateGray;
+  padding: 0px;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+.calctable td {
+  border: 3px solid LightCyan;
+  background: LightSlateGrey;
+  padding: 2px;
+  color: MediumSpringGreen;
+  text-align: center;
+
+}
+
+.calctable input {
+  border: 3px solid LightCyan;
+  background: PapayaWhip;
+  padding: 2px;
+  color: DarkBlue;
+  text-align: center;
+  width: 95%
+}
+
+.button input {
+  border: 2px solid DarkSlateGray;
+  background: MediumSpringGreen;
+  padding: 10px;
+  margin: 10px;
+  color: DarkBlue;
+  text-align: center;
+}
+.buttondist input {
+  border: 1px solid DarkSlateGray;
+  background: Goldenrod;
+  padding: 3px;
+  margin: 3px;
+  color: DarkBlue;
+  text-align: center;
+}
+.calcinnertable tr {
+    max_width: 10px;
+    text-align: center;
+
+}
+.calcinnerheader td {
+  border: 3px solid LightSlateGrey;
+  background: DarkSlateGray;
+  padding: 4px;
+  color: AliceBlue;
+  text-align: center;
+
+}
