@@ -1,4 +1,9 @@
 The entrance point is densityPSU.py
-The main_runDensityMakter.py is deprecated
+Normalised density matrices are calculated and saved to file.
+This is only done once per pdb so subsequent uses are faster.
 
 External library: https://pdb-eda.readthedocs.io/en/latest/api.html
+Also uses BioPython
+
+Note that these libraries require pdb files and electron density files, and will download them if they need to. This can be slow at the outset.
+
