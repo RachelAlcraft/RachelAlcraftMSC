@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="img/c9.png"><title>Rachel Alcraft</title>
+<link type="text/css" rel="stylesheet" href="css/thesis.css">
+</head>
+<body>
+<div id="top-menu">
+<div class="table">
+<ul id="horizontal-list">
+<li><a href="http://www.bbk.ac.uk/" target="_blank"><img src="img/bbk.png" width="100" alt=""/></a></li>
+<li><a href="index.html"><img src="img/home.png" width="100" alt="home" /></a></li>
+<li><a href="Chme9.html"><img src="img/chme9.png" width="100" alt="chme9" /></a></li>
+<li><a href="cpp.html"><img src="img/cpp.png" width="100" alt="C++" /></a></li>
+<li><a href="thesis.html"><img src="img/project.png" width="100" alt="C++" /></a></li>
+<li><a href="http://www.bbk.ac.uk/" target="_blank"><img src="img/bbk.png" width="100" alt=""/></a></li>
+</ul>
+</div>
+</div>
+<hr/>
+<h1>
+Protein Structure Utility : PSU-View
+</h1>
+<div class="thesisheader">
+<span><a href="thesis.html" title="Home" target="_self">Home</a>
+</span><span> ~ </span><span><span><a href="data.html" title="Help" target="_self">Help</a>
+</span><span> ~ </span><a href="contact.html" title="ContactMap" target="_self">Contact Maps</a>
+</span><span> ~ </span><span><a href="distributions.html" title="Distributions" target="_self">Distributions</a>
+</span><span> ~ </span><span><a href="resolution.html" title="Resolution" target="_self">Resolution</a>
+</span><span> ~ </span><span><a href="validation.html" title="Correlations" target="_self">Correlations</a>
+</span><span> ~ </span><span><a href="database.html" title="Database" target="_self">Database</a>
+</span><span> ~ </span><span><a href="calc.html" title="GeoCalc" target="_self">Geo Calculator</a>
+</span></div>
+<hr/>
+<div class="middle"><p>
+This is a student project for the Birkbeck College MSc Bioinformatics and Systems Biology, 2019/2020
+</p></div>
+<hr/>
+<div class="banner">
+<p>
+Some prelimary help for the distributions page</p>
+</div>
+<div class="middle"><p>Histograms: enter Geo Calc X and Distribution A.<br/>        Note for contacts for distance distributions use e.g. C@SG-SG (or C@N-O, C@CA-CA, c@CB-CB)<br/>        Note for bounds the Upper is exclusive and the lower in inclusive<br/>Scatter plots: enter Geo Calc X and Geo Calc Y, and Distribution A<br/>        The gradient can be entered in the gradient box, any numerical value, eg resolution, rfree, rvalue, residues, amino_no...<br/>Probability Density: enter Geo Calc X and Geo Calc Y, and Distribution A<br/>Compare Distributions: enter Geo Calc X and Geo Calc Y, and Distribution A and B for an overlay comparison<br/>Compare Probability: enter Geo Calc X and Geo Calc Y, and Distribution A and B for an overlay comparison<br/>        Note for the amino code, enter a single 3 letter code, or a comma delim list, or ALL<br/>        Note that this is different for the distance distributions where ALL means all at the same time<br/>A further restriction can be added for the sql, e.g. AND amino_code != 'PRO' </p></div><div class="banner">
+<p>
+These geometric measures have been pre-calculated for non-similar high resolution structures from the pdb (<=1.3A) and a 2018-2019 set.</p>
+</div>
+<form method="post" action="/cgi-bin/cgiwrap/ab002/thesis_calcs.cgi" accept-charset="UTF-8">
+<p><input type='Submit' value='Browse Calculations' formaction='/cgi-bin/cgiwrap/ab002/thesis_calcs.cgi'/></p>
+</form>
+<div class="banner">
+<p>
+For the HIGH resolution structures included...</p>
+</div>
+<form method="post" action="/cgi-bin/cgiwrap/ab002/thesis_highpdb.cgi" accept-charset="UTF-8">
+<p><input type='Submit' value='Browse High Res PDBs' formaction='/cgi-bin/cgiwrap/ab002/thesis_highpdb.cgi'/></p>
+</form>
+<div class="banner">
+<p>
+For the 2018-2019 structures included...</p>
+</div>
+<form method="post" action="/cgi-bin/cgiwrap/ab002/thesis_2019pdb.cgi" accept-charset="UTF-8">
+<p><input type='Submit' value='Browse 2018-2019 PDBs'' formaction='/cgi-bin/cgiwrap/ab002/thesis_2019pdb.cgi'/></p>
+</form>
+<div id="bottom">
+<p>
+Created by: Rachel Alcraft<br/>
+<a href="http://mscb.cryst.bbk.ac.uk/" title="MScBio" target="_blank">Birkbeck MSc Bioinformatics 2019/2020</a>
+</p>
+</div>
+</body>
