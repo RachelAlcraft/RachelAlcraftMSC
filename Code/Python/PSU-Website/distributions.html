@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="img/c9.png"><title>Rachel Alcraft</title>
+<link type="text/css" rel="stylesheet" href="css/thesis.css">
+</head>
+<body>
+<div id="top-menu">
+<div class="table">
+<ul id="horizontal-list">
+<li><a href="http://www.bbk.ac.uk/" target="_blank"><img src="img/bbk.png" width="100" alt=""/></a></li>
+<li><a href="index.html"><img src="img/home.png" width="100" alt="home" /></a></li>
+<li><a href="Chme9.html"><img src="img/chme9.png" width="100" alt="chme9" /></a></li>
+<li><a href="cpp.html"><img src="img/cpp.png" width="100" alt="C++" /></a></li>
+<li><a href="thesis.html"><img src="img/project.png" width="100" alt="C++" /></a></li>
+<li><a href="http://www.bbk.ac.uk/" target="_blank"><img src="img/bbk.png" width="100" alt=""/></a></li>
+</ul>
+</div>
+</div>
+<hr/>
+<h1>
+Protein Structure Utility : PSU-View
+</h1>
+<div class="thesisheader">
+<span><a href="thesis.html" title="Home" target="_self">Home</a>
+</span><span> ~ </span><span><span><a href="data.html" title="Help" target="_self">Help</a>
+</span><span> ~ </span><a href="contact.html" title="ContactMap" target="_self">Contact Maps</a>
+</span><span> ~ </span><span><a href="distributions.html" title="Distributions" target="_self">Distributions</a>
+</span><span> ~ </span><span><a href="resolution.html" title="Resolution" target="_self">Resolution</a>
+</span><span> ~ </span><span><a href="validation.html" title="Correlations" target="_self">Correlations</a>
+</span><span> ~ </span><span><a href="database.html" title="Database" target="_self">Database</a>
+</span><span> ~ </span><span><a href="calc.html" title="GeoCalc" target="_self">Geo Calculator</a>
+</span></div>
+<hr/>
+<div class="middle"><p>
+This is a student project for the Birkbeck College MSc Bioinformatics and Systems Biology, 2019/2020
+</p></div>
+<hr/>
+<div class="middle">
+<div class="banner">
+<p>
+For help and available calculations click below:</p>
+</div>
+<p><a href="data.html" title="GeoMeasures" target="_self">Help and geo measures</a></p>
+</div>
+<div class="banner">
+<p>
+Enter appropriate parameters to view distributions</p>
+</div>
+<div class="middle">
+<form method="post" action="/cgi-bin/cgiwrap/ab002/thesis_correlation.cgi" accept-charset="UTF-8">
+<div class="smallmiddle">
+<table class="verdsearchtable"><tr class=outinnerheader><td>Overall Distribution</td><td>Distribution A</td><td>Secondary Structure For A or B </td><td>Distribution B</td><td>Choose Images</td></tr>
+<tr><td><table class="verdsearchtable"><tr><td>Geo Calc X</td><td><input type="text" size="6" name="calcX" value="PHI"/></td></tr>
+<tr><td>Geo Calc Y</td><td><input type="text" size="6" name="calcY" value="PSI"/></td></tr>
+<tr><td>Geo Calc Z</td><td><input type="text" size="6" name="calcZ" value=""/></td></tr>
+<tr><td>Hue Choice</td><td><input type="text" size="6" name="gradient" value="RESOLUTION"/></td></tr>
+<tr><td><label for="hist">Include IN pdbs</label></td><td><input type="checkbox" id="in_set" name="in_set" value="1"  checked="checked""></td></tr>
+<tr><td><label for="hist">Include CHECKED pdbs</label></td><td><input type="checkbox" id="checked_set" name="checked_set" value="1"  checked="checked""></td></tr>
+</table></td><td><table class="verdsearchtable"><tr><td>Set Name</td><td><input type="text" size="6" name="set_nameA" value="HIGH"/></td></tr>
+<tr><td>Amino Code</td><td><input type="text" size="6" name="amino_codeA" value="PRO"/></td></tr>
+<tr><td>Occupant</td><td><input type="text" size="6" name="occA" value="A"/></td></tr>
+<tr><td>Contact</td><td><input type="text" size="6" name="contactA" value=""/></td></tr>
+<tr><td>Restriction</td><td colspan="2"><input type="text" size="15" name="restrictionA" value=""/></td></tr>
+<tr><td>Max BFactor</td><td><input type="text" size="6" name="maxbA" value="100"/></td></tr>
+<tr><td>Bounds:</td><td>Upper</td><td>Lower</td></tr>
+<tr><td>Resolution</td><td><input type="text" size="6" name="res_choiceA" value="1.25"/></td>
+<td><input type="text" size="6" name="res_choiceAL" value="ALL"/></td></tr>
+<tr><td>R Value</td><td><input type="text" size="6" name="rv_choiceA" value="ALL"/></td>
+<td><input type="text" size="6" name="rv_choiceAL" value="ALL"/></td></tr>
+<tr><td>R Free</td><td><input type="text" size="6" name="rf_choiceA" value="0.3"/></td>
+<td><input type="text" size="6" name="rf_choiceAL" value="ALL"/></td></tr>
+</table></td><td><table class="verdsearchtable"><tr><td><label for="H">H=α-helix</label></td><td><input type="checkbox" id="H" name="H" value="1" checked='checked'"></td><td><input type="checkbox" id="Hb" name="Hb" value="1" checked='checked'"></td></tr>
+<tr><td><label for="B">B=residue in isolated β-bridge</label></td><td><input type="checkbox" id="B" name="B" value="1" checked='checked'"></td><td><input type="checkbox" id="Bb" name="Bb" value="1" checked='checked'"></td></tr>
+<tr><td><label for="E">E=extended strand, participates in β ladder</label></td><td><input type="checkbox" id="E" name="E" value="1" checked='checked'"></td><td><input type="checkbox" id="Eb" name="Eb" value="1" checked='checked'"></td></tr>
+<tr><td><label for="G">G=3-helix (310 helix)</label></td><td><input type="checkbox" id="G" name="G" value="1" checked='checked'"></td><td><input type="checkbox" id="Gb" name="Gb" value="1" checked='checked'"></td></tr>
+<tr><td><label for="I">I=5 helix (π-helix)</label></td><td><input type="checkbox" id="I" name="I" value="1" checked='checked'"></td><td><input type="checkbox" id="Ib" name="Ib" value="1" checked='checked'"></td></tr>
+<tr><td><label for="T">T=hydrogen bonded turn</label></td><td><input type="checkbox" id="T" name="T" value="1" checked='checked'"></td><td><input type="checkbox" id="Tb" name="Tb" value="1" checked='checked'"></td></tr>
+<tr><td><label for="S">S=bend </label></td><td><input type="checkbox" id="S" name="S" value="1" checked='checked'"></td><td><input type="checkbox" id="Sb" name="Sb" value="1" checked='checked'"></td></tr>
+<tr><td><label for="U">U=unknown</label></td><td><input type="checkbox" id="U" name="U" value="1" checked='checked'"></td><td><input type="checkbox" id="Ub" name="Ub" value="1" checked='checked'"></td></tr>
+<tr><td><label for="X">X=Unassigned</label></td><td><input type="checkbox" id="X" name="X" value="1" checked='checked'"></td><td><input type="checkbox" id="Xb" name="Xb" value="1" checked='checked'"></td></tr>
+</table></td><td><table class="verdsearchtable"><tr><td>Set Name</td><td><input type="text" size="6" name="set_nameB" value="HIGH"/></td></tr>
+<tr><td>Amino Code</td><td><input type="text" size="6" name="amino_codeB" value="PRO"/></td></tr>
+<tr><td>Occupant</td><td><input type="text" size="6" name="occB" value="A"/></td></tr>
+<tr><td>Contact</td><td><input type="text" size="6" name="contactB" value=""/></td></tr>
+<tr><td>Restriction</td><td colspan="2"><input type="text" size="15" name="restrictionB" value=""/></td></tr>
+<tr><td>Max BFactor</td><td><input type="text" size="6" name="maxbB" value="100"/></td></tr>
+<tr><td>Bounds:</td><td>Upper</td><td>Lower</td></tr>
+<tr><td>Resolution</td><td><input type="text" size="6" name="res_choiceB" value="ALL"/></td>
+<td><input type="text" size="6" name="res_choiceBL" value="1.25"/></td></tr>
+<tr><td>R Value</td><td><input type="text" size="6" name="rv_choiceB" value="ALL"/></td>
+<td><input type="text" size="6" name="rv_choiceBL" value="ALL"/></td></tr>
+<tr><td>R Free</td><td><input type="text" size="6" name="rf_choiceB" value="0.3"/></td>
+<td><input type="text" size="6" name="rf_choiceBL" value="ALL"/></td></tr>
+</table></td><td><table class="verdsearchtable"><tr><td><label for="hist">1d Histogram</label></td><td><input type="checkbox" id="hist" name="hist" value="1" "></td></tr>
+<tr><td><label for="scatter">2d Scatter</label></td><td><input type="checkbox" id="scatter" name="scatter" value="1" checked='checked'"></td></tr>
+<tr><td><label for="trace">2d Density Trace</label></td><td><input type="checkbox" id="trace" name="trace" value="1" "></td></tr>
+<tr><td><label for="probden">2d Probability Density</label></td><td><input type="checkbox" id="probden" name="probden" value="1" checked='checked'"></td></tr>
+<tr><td><label for="breadth">2dx2d Breadth Compare</label></td><td><input type="checkbox" id="breadth" name="breadth" value="1" "></td></tr>
+<tr><td><label for="depth">2dx2d Depth Compare</label></td><td><input type="checkbox" id="depth" name="depth" value="1" "></td></tr>
+<tr><td><label for="scatter3">3d Scatter</label></td><td><input type="checkbox" id="scatter3" name="scatter3" value="1" "></td></tr>
+</table></td></tr><tr><td><div class='buttondist'><input type='Submit' value='Create Distribution Images' formaction='/cgi-bin/cgiwrap/ab002/thesis_distributions.cgi'/></div></td></tr>
+</table></div>
+</form>
+</div>
+<hr/>
+<div id="bottom">
+<p>
+Created by: Rachel Alcraft<br/>
+<a href="http://mscb.cryst.bbk.ac.uk/" title="MScBio" target="_blank">Birkbeck MSc Bioinformatics 2019/2020</a>
+</p>
+</div>
+</body>
