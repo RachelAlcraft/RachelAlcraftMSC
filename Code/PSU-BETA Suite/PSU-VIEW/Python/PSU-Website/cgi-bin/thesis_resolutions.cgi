@@ -53,7 +53,7 @@ gradient='resolution'
 #options
 hist = '0'
 box = '0'
-violin = '1'
+violin = '0'
 line = '0'
 
 # structures

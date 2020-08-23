@@ -1,6 +1,7 @@
-The code is split over multiple projects and languages.
+Some results that are references by the thesis manuscript.
+CHI1 shows calculations of alanine
+ElectronDensity has the html results of electron density with each set being a directory.
+Jaskolski - some of the results saved during calculations
+OmegaCACA some results for cis/trans comaring omega and CACA
+ProlinePCA - the r script and data for the proline PCA analysis
 
-C++ - The utilities to take the pdb files, calcukate the geometric measures and store them in files is all in C++.
-Database - The data is written into MySQL database tables using python and sql.
-Python - A website histed on the birkbeck servers allows the data to be explored, written in python and cgi scripts.
-R - some data anlaysis is done in R from copied down data, eg PCA analysis of proline.

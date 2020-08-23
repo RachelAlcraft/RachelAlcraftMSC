@@ -485,7 +485,22 @@ def dataFrameToBoxPlot(df, amino_code, axes, view):
                     dfx = df[df['measure'] == meas]
                     dfx = df[df['bucket'] == buck]
 
-                    sns.distplot(dfx["geox"], label=label, norm_hist=True, kde=False)
+                    sns.distplot(dfx["geox"], label=label, norm_hist=True, bins=50, kde=False)
+
+            plt.legend()
+            ax.set_xlabel("")
+        elif view == 'Line Plot':
+            measures = df.measure.unique()
+            buckets = df.bucket.unique()
+
+            for meas in measures:
+                for buck in buckets:
+                    label = meas + " " + buck
+                    dfx = df[df['measure'] == meas]
+                    dfx = df[df['bucket'] == buck]
+
+                    sns.distplot(dfx["geox"], label=label, norm_hist=True, bins=50, hist=False, kde=True,
+                                 kde_kws={"kernel": "cos", "bw": "silverman"})
             plt.legend()
             ax.set_xlabel("")
         else:
@@ -496,8 +511,9 @@ def dataFrameToBoxPlot(df, amino_code, axes, view):
                 # print("debug 3")
                 sns.swarmplot(x='bucket', y='geox', hue="measure", data=df, palette="Set1")
             elif view == 'Violin Plot':
-                sns.violinplot(x='bucket', y='geox', hue="measure", data=df, palette="Set1")  # ,inner="quart")
-            elif view == 'Line Plot':
+                sns.violinplot(x='bucket', y='geox', hue="measure", data=df, palette="Set1", cut=0,
+                               bw=0.1)  # ,inner="quart")
+            elif view == 'Line PlotX':
                 sns.lineplot(x='bucket', y='geox', hue="measure", data=df, palette="Set1", ci=95)
             ax.set_xlabel("Resolution bucket")
         ax.set_ylabel('')

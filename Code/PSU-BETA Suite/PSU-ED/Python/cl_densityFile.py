@@ -168,6 +168,9 @@ class densityFile:
         rl,ru = math.floor(r),math.ceil(r)
         sl, su = math.floor(s), math.ceil(s)
 
+        # make sure none of them are out of bounds
+
+
         aafrac = self.getFraction([c, r, s], [cl, rl, sl], [cl, ru, sl])
         bbfrac = self.getFraction([c, r, s], [cu, rl, sl], [cu, ru, sl])
         ccfrac = self.getFraction([c, r, s], [cl, rl, su], [cl, ru, su])
@@ -222,16 +225,47 @@ class densityFile:
 
 
     def getFraction(self, po, p1, p2):
-        d1 = math.sqrt((po[0] - p1[0]) ** 2 + (po[1] - p1[1]) ** 2 + (po[1] - p1[1]) ** 2)
-        d2 = math.sqrt((po[0] - p2[0]) ** 2 + (po[1] - p2[1]) ** 2 + (po[1] - p2[1]) ** 2)
-        if d1 + d2 == 0:
+        a = math.sqrt((po[0] - p1[0]) ** 2 + (po[1] - p1[1]) ** 2 + (po[1] - p1[1]) ** 2)
+        b = math.sqrt((po[0] - p2[0]) ** 2 + (po[1] - p2[1]) ** 2 + (po[1] - p2[1]) ** 2)
+        c = math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2 + (p1[1] - p2[1]) ** 2)
+        # point Px is the point found dropping a perpendicular from p0 onto line P1-P2
+        # x is the distance from p1 to px
+        # The angle beta is found from the cosine rule
+        # cos beta  equates x/a to (a^2 + c^2 - b^2) / 2ac
+        if c == 0:
             fraction = 0
         else:
-            fraction = d1 / (d1 + d2)
+            x = (a ** 2 + c ** 2 - b ** 2) / (2 * c)
+            fraction = x / c
         return (fraction)
 
     def getPointDensityFromCrs(self,crs):
-        pd = self.whole_density[crs[2], crs[1], crs[0]]
+        # check boundaries
+        x,y,z = self.whole_density.shape
+        i,j,k = crs[2], crs[1], crs[0]
+        change = False
+        if i < 0:
+            i = 0
+            change = True
+        if j < 0:
+            j = 0
+            change = True
+        if k < 0:
+            k = 0
+            change = True
+        if i >= x:
+            i = x-1
+            change = True
+        if j >= y:
+            j = y-1
+            change = True
+        if k >= z:
+            k = z-1
+            change = True
+        if change:
+            print('XYZ=',x,y,z,'CRS=',crs[2], crs[1], crs[0],'IJK=',i,j,k)
+
+        pd = self.whole_density[i,j,k]
         return(pd)
 
     def getInterpVal(self,v1,v2,p1,p2,fraction):

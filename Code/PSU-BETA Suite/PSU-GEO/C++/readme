@@ -1,0 +1,8 @@
+Libs breaks down the code into libraries that are used statically
+Utils contains the utilities, these are single files that use the Libs
+
+An external Birkbeck library is used with permisisson, the BTL library. The code was not used in this project but is needed to build it.
+http://people.cryst.bbk.ac.uk/~classlib/bioinf/BTL.html
+
+Note, the project files are not given here. These projects were built in Visual Studio on Windows.
+They will eventually be ported to a linux CMake environemnt.

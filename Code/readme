@@ -1,6 +1,4 @@
 The code is split over multiple projects and languages.
+PSI-Beta is the name of the project.
+(Protein Structure Utility version b)
 
-C++ - The utilities to take the pdb files, calculate the geometric measures and store them in files is all in C++.
-Database - The data is written into MySQL database tables using python and sql.
-Python - A website hosted on the birkbeck servers allows the data to be explored, written in python and cgi scripts.
-R - some data anlaysis is done in R from copied down data, eg PCA analysis of proline.

@@ -1,2 +1,10 @@
 Data Files
-topallhgg5.3.pro - file with definitions of angles, lengths, dihedrals (used for NMR refinement).
+
+topallhgg5.3.pro 
+This file was used for specification of geoemtric measres - file with definitions of angles, lengths, dihedrals (used for NMR refinement).
+
+_nonsim.csv
+The non similar lists of structrues used
+
+bc-90.out
+The list of homology at 90%

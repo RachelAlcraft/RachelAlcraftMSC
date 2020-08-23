@@ -12,42 +12,36 @@ import cl_runner
 
 densruns = []
 #densruns.append(['AtomLists/200 GLN AHELICES.csv','200 GLN AHelices'])
-#densruns.append(['AtomLists/1US0 TYR.csv','1US0 TYR Ring'])
+#densruns.append(['AtomLists/200 GLN AHELICES PLUS.csv','200 GLN AHelices Plus'])
+#densruns.append(['AtomLists/200 GLN AHELICES MINUS.csv','200 GLN AHelices Minus'])
+#densruns.append(['AtomLists/1US0 TYR.csv','1US0 TYR Ring 2'])
 #densruns.append(['AtomLists/10 FAKE HIGH.csv','10 FAKE HIGH'])
 #densruns.append(['AtomLists/10 FAKE MIDDLE.csv','10 FAKE MIDDLE'])
 #densruns.append(['AtomLists/10 FAKE LOW.csv','10 FAKE LOW'])
-densruns.append(['AtomLists/50 LYS SIDE.csv','50 LYS SIDE'])
+#densruns.append(['AtomLists/50 LYS SIDE.csv','50 LYS SIDE'])
+#densruns.append(['AtomLists/1EJG PEPTIDE MANY.csv','JELSCH MANY'])
+#densruns.append(['AtomLists/1EJG PEPTIDE BOND.csv','JELSCH BOND 2'])
 
 diffruns = []
+#diffruns.append(['AtomLists/200 GLN AHELICES PLUS.csv','200 GLN AHelices Plus'])
+#diffruns.append(['AtomLists/200 GLN AHELICES MINUS.csv','200 GLN AHelices Minus'])
 #diffruns.append(['AtomLists/200 GLN AHELICES.csv','200 GLN AHelices'])
-#diffruns.append(['AtomLists/1US0 TYR.csv','1US0 TYR Ring'])
+diffruns.append(['AtomLists/1US0 TYR.csv','1US0 TYR Ring 2'])
 #diffruns.append(['AtomLists/10 FAKE HIGH.csv','10 FAKE HIGH'])
 #diffruns.append(['AtomLists/10 FAKE MIDDLE.csv','10 FAKE MIDDLE'])
 #diffruns.append(['AtomLists/10 FAKE LOW.csv','10 FAKE LOW'])
-diffruns.append(['AtomLists/50 LYS SIDE.csv','50 LYS SIDE'])
+#diffruns.append(['AtomLists/50 LYS SIDE.csv','50 LYS SIDE'])
+#diffruns.append(['AtomLists/1EJG PEPTIDE MANY.csv','JELSCH MANY'])
+#diffruns.append(['AtomLists/1EJG PEPTIDE BOND.csv','JELSCH BOND 2'])
 
 
 
-
-#runs.append(['AtomLists/200 GLN BSHEETS.csv','200 GLN BSHEETS'])
-
-#runs.append(['AtomLists/500 GLN AHELICES.csv','500 GLN AHelices'])
-#runs.append(['AtomLists/30 GLN AHELICES.csv','30 GLN AHelices'])
-#runs.append(['AtomLists/TAU 20 MIDDLE.csv','TAU 20 Middle'])
-#runs.append(['AtomLists/1EJG THR.csv','TST2 Jelsch 1ejg THR'])
-#runs.append(['AtomLists/3O4P_O_N_C.csv','Elias 3o4p O-N-C ILE'])
-#runs.append(['AtomLists/3O4P ASP 229.csv','Elias 3o4p ASP 229'])
-#runs.append(['AtomLists/1EJG THR.csv','Jelsch 1ejg THR'])
-#runs.append(['AtomLists/1PJX_O_N_C.csv','1PJX O-N-C ILE radius 0.5'])
-#runs.append(['AtomLists/1PJX_O_N_C_g2.csv','1PJX O-N-C ILE Group 2'])
-#runs.append(['AtomLists/1PJX_O_N_C_g3.csv','1PJX O-N-C ILE Group 3'])
-#runs.append(['AtomLists/1PJX_O_N_C_g4.csv','1PJX O-N-C ILE Group 4'])
 
 #results_dir = '/home/rachel/Documents/Bioinformatics/ResultsNotSynched'
 results_dir = 'ResultsLocal'
 conversions_file = 'chain_medians.cfg'
 length = 10 # in Angstrom
-gaps = 0.1
+gaps = 0.15
 middle_slices = -1 # -1 means all
 radius = 0 # 0 means interpolated point density
 
